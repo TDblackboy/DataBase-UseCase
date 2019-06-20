@@ -1,0 +1,20 @@
+mongo
+
+INTRODUCE：
+
+1.database(数据库)
+2.collection(集合)
+3.document(文档) - {key:value} - 键值对
+=============================
+
+OPERATIOIN：
+
+use database; - 创建&使用数据库
+db.dropDatabase(); - 删除当前数据库
+show users; - 查看用户
+show dbs; - 查看数据库 
+show collections; - 查看集合
+db.[collectionName].drop(); - 删除集合
+db.[].Count(); - 查看集合中数据条数
+db.[].find({key:value}); - 查看集合中文档信息
+db.[].remove(); - 删除某一文档

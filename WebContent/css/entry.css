@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+.header{
+	width:100%;
+	background:#e7f3f3;
+	font-size:28px;
+	line-height:50px;
+}
+.header p{
+	padding-left:25px;
+}
+form{
+	width:100%;
+}
+.block{
+	width:100%;
+ /* background:yellow;  */
+	margin-bottom:10px;
+}
+.block .title{
+	width:100%;
+	background:#e7f3f3 url("../img/border.png") no-repeat 0 5px;
+	line-height:40px;
+	font-size:23px; 
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.block .title p{
+	padding-left:25px;
+}
+
+.block .content{
+	width:100%;
+	font-size:21px;
+	margin-bottom:30px;
+}
+.block .content #in1{
+	line-height:28px;
+	width:200px;
+	font-size:21px;
+	font-family:"楷体";
+}
+
+/* --细节-- */
+.d1{
+	width:100%;
+	margin:0px;
+	height:30px;
+	/* background:red;  */
+	margin-bottom:10px;
+}
+.ddd1{
+	padding-left:45px;
+}
+.d4,.d6,.d8{
+	width:50%;
+	height:30px;
+	margin:0px;
+	float:right;
+	text-align:center;
+	margin-bottom:10px;
+    /* background:black; */
+}
+.d3,.d5{
+	width:50%;
+	height:30px;
+	margin:0px;
+	float:left;
+	margin-bottom:10px;
+	/* background:blue;  */
+}
+.d3 #in2{
+	height:28px;
+	width:150px;
+	font-size:18px;
+}
+.d5 select{
+	width:200px;
+	height:30px;
+	font-size:15px;
+	font-family:"楷体";
+}
+.d7{
+	width:50%;
+	height:30px;
+	margin:0px;
+	float:left;
+	margin-bottom:10px;
+	/* background:yellow; */
+}
+.dd3,.dd5,.dd7{
+	padding-left:45px;
+}
+.d10,.d11{
+	width:100%;
+	margin:0px;
+	margin-bottom:10px;
+	/* background:#808000; */
+}
+.d1011{
+	padding-left:45px;
+}
+.d9{
+	width:100%;
+	margin:0px;
+}  
+/* 9-1 */ 
+.ddd9-1{
+	width:100%;
+	padding-left:45px;
+	margin-bottom:10px;
+	/* background:green; */
+}
+.ddd9-1 #pz{
+	width:190px;
+}
+/*法人类型2 ,3,4 */
+.ddd9-2{
+	width:100%;
+	padding-left:202px;
+	margin-bottom:10px;
+	display:none;
+}
+.ddd9-3,.ddd9-4{
+	width:100%;
+	padding-left:202px;
+	margin-bottom:10px;
+}
+.ddd9-3 #pz2{
+	width:200px;
+}
+
+/**/
+.d9 select,.d10 select,.d11 select{
+	width:130px;
+	height:28px;
+	font-size:15px;
+	font-family:"楷体";
+}
+/*下一组*/
+.d12,.d13,.d14,.d15,.d16{
+	width:100%;
+	margin:0px;
+	margin-bottom:10px;
+	/* background:yellow; */
+}
+.ddiv{
+	padding-left:45px;
+}
+
+.d1516{
+	width:100%;
+} 
+.d15,.d16{
+	padding-left:45px;
+}
+.d16 select{
+	width:120px;
+	height:30px;
+	font-size:16px;
+	font-family:"楷体";
+}
+/* 第三组 */
+.d17{
+	width:100%;
+	/* background:yellow; */
+}
+.dd17{
+	width:100%;
+	padding-left:45px;
+	/* background:blue; */
+}
+.d17 input{
+	width:300px;
+	height:30px;
+	font-size:21px;
+	font-family:"楷体";
+}
+.d17 table tr{
+	width:;
+	height:40px;
+}
+.d17 #div-add{
+	width:29px;
+	height:28px;
+}
+.d17 #div-minus{
+	width:18px;
+	height:18px;
+	padding-left:6px;
+}
+/*院长*/
+.dleft{
+	width:50%;
+	height:30px;
+	float:left;
+	margin-bottom:10px;
+}
+.dright{
+	width:50%;
+	height:30px;
+	float:right;
+	margin-bottom:10px;
+}
+.dpadding{
+	padding-left:45px;
+}
+.dlast{
+	width:100%;
+}
+/* next */
+.tongxun{
+	width:100%;
+	height:70px;;
+}
+.d2left{
+	width:50%;
+	height:30px;
+	float:left;
+	text-align:center;
+	margin-bottom:10px;
+}
+.d2right{
+	width:50%;
+	height:30px;
+	float:right;
+	text-align:center;
+	margin-bottom:10px;
+}
+/*last*/
+.divx{
+	width:100%;
+	/* background:yellow */;
+}
+.divx .div1{
+	width:100%;
+	margin-left:45px;
+	margin-bottom:10px;
+	/* background:red */;
+}
+.divleft{
+	width:50%;
+	height:30px;
+	float:left;
+	/* background:red */;
+	margin-bottom:10px;
+}
+.divright{
+	width:50%;
+	height:30px;
+	float:right;
+	margin-bottom:10px;
+}
+.divt{
+	padding-left:45px;
+}
+.divt #date2{
+	height:28px;
+	width:130px;
+	font-size:18px;
+}
+/* 提交*/
+.sub{
+	width:100%;
+	margin-top:150px;
+	margin-bottom:50px;
+	/* background:red ; */
+	/* padding-left:px; */
+	text-align:center;
+}
+.sub input{
+	width:40%;
+	height:43px;
+	background:#008040;
+	color:white;
+	font-size:25px;
+	font-family:"楷体";	
+	border-radius:15px;
+	
+}
+
+
+
+
+

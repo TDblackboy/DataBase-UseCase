@@ -1,0 +1,60 @@
+@charset "UTF-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#eeeeee;
+}
+/* /////////////////////////////////// */
+.box{
+	width:820px;
+	margin:50px auto;
+	background:#ffffff;
+	padding-top:40px;
+	padding-bottom:40px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	font-family:"楷体";
+}
+/* /////////////////////////////////// */
+.box .header{
+	width:100%;
+	background:#e7f3f3;
+	font-size:28px;
+	line-height:50px;
+}
+.box .header p{
+	/* padding-left:25px; */
+}
+.pl{
+	width:80%;
+	/* background:yellow; */
+	margin-left:45px;
+}
+.pr{
+	width:20%;
+	font-size:16px;
+	float:right;
+	/* background:red; */
+}
+/* /////////////////////////////////// */
+
+.content{
+	width:100%;
+}
+
+.content table{
+	font-size:21px;
+	margin:50px auto;
+}
+.td-tip{
+	width:170px;
+	height:40px;
+	background:#e7f3f3; 
+}
+.td-con{
+	width:500px;
+	height:40px;
+	background:#cccccc; 
+}

@@ -1,0 +1,5 @@
+mysql
+
+1.user-pass:登录(身份验证)
+2.database
+3.table{row,column}

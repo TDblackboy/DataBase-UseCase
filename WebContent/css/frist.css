@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+.header{
+	width:100%;
+	background:#e7f3f3;
+	/* padding-top:30px; */
+	font-size:28px;
+	line-height:50px;
+}
+.header p{
+	padding-left:25px;
+}
+.block{
+	width:100%;
+	margin-top:20px;
+}
+.block .title{
+	width:100%;
+	line-height:40px;
+	background:#e7f3f3 url("../img/border.png") no-repeat 0 4px;
+	font-size:23px;
+
+}
+.block .title p{
+	padding-left:25px;
+}
+.block .content{
+	width:100%;
+	font-size:22px;
+}
+.block .content p{
+	margin-left:100px;
+	margin-top:20px;
+}

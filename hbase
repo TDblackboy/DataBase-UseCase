@@ -1,0 +1,33 @@
+hbase - 建立在HDFS
+
+INTRODUCE：
+
+1.table{ "rowKey", "columnFamily(尽量少)", "columnQualifier" }
+
+	{ "cell", "timeStamp（版本）" }
+
+{
+  rowKey:{
+	columnFamily:{
+		column:{
+			timeStamp:value1;
+			timeStamp:value2;
+			timeStamp:value3;
+			};
+		column:;
+		..
+		..
+		..
+		},
+	columnFamily2:{
+		}
+		
+	.....
+	}
+}
+
+==============================
+
+OPERATION：
+
+table - create,drop,alter.desc
