@@ -8,7 +8,7 @@
       
       hdfs - hadoop分布式文件系统
       
-      NOSQL：HBASE；MongoDB；Redis(好像丢了...)
+      NOSQL：HBASE；MongoDB；Redis
       
 架构思路：分层，SOA思想
 
